@@ -8,6 +8,17 @@
 
 #result {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-danger {
+  justify-content: center;
+  margin: 5em;
+}
+
+#scoreboard {
+  display: flex;
   justify-content: center;
 }
